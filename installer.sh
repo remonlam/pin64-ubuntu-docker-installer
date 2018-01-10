@@ -28,3 +28,9 @@ apt-get install -y docker-ce
 # Enable and start Docker;
 systemctl enable docker
 systemctl start docker
+
+# Get Docker version
+docker version
+
+# Run a test container
+docker run --rm hello-world
